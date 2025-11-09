@@ -19,7 +19,13 @@
       "directory": ".open-next/assets"
     },
     "observability": {
-      "enabled": true
+      "enabled": true,
+      "logs": {
+        "enabled": true
+      },
+      "traces": {
+        "enabled": true,
+      }
     },
     /**
      * Smart Placement
